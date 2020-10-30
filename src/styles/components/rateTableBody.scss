@@ -3,7 +3,15 @@
 
   tr {
     td {
-      width: 325px;
+      width: $column-width;
+      padding: 8px;
+      @include tableBorders();
+    }
+
+    &:nth-child(even) {
+      td {
+        background-color: lighten(turquoise, 35%);
+      }
     }
   }
 }

@@ -2,12 +2,12 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const RateTableBody = ({ exchangeRates }) => (
-  <tbody>
+  <tbody id="rateTableBodyContainer">
     {exchangeRates.map((exchangeRate) => {
       const { from, to, rate } = exchangeRate
       return (
         <tr key={from + to}>
-          <td>{from + to}</td>
+          <td>{`${from} -> ${to}`}</td>
           <td>{rate}</td>
         </tr>
       )

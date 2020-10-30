@@ -1,7 +1,7 @@
 import React from "react"
 
 const RateTableHead = () => (
-  <thead>
+  <thead id="rateTableHeadContainer">
     <tr>
       <th>Cryptocurrency Exchange</th>
       <th>Live Rate</th>

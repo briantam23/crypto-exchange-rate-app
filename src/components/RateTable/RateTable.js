@@ -22,12 +22,10 @@ const RateTable = ({ refreshRate }) => {
   }, [refreshRate])
 
   return (
-    <div>
-      <table>
-        <RateTableHead />
-        <RateTableBody exchangeRates={exchangeRates} />
-      </table>
-    </div>
+    <table id="rateTableContainer">
+      <RateTableHead />
+      <RateTableBody exchangeRates={exchangeRates} />
+    </table>
   )
 }
 

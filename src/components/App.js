@@ -6,10 +6,11 @@ const App = () => {
   const [refreshRate, setRefreshRate] = useState("5000")
 
   return (
-    <div>
+    <>
+      <h1 id="title">Cryptocurrency Exchange Rates</h1>
       <RefreshRate refreshRate={refreshRate} setRefreshRate={setRefreshRate} />
       <RateTable refreshRate={refreshRate} />
-    </div>
+    </>
   )
 }
 

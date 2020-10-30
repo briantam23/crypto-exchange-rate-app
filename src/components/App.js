@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import RefreshRate from "./RefreshRate"
-import RateTable from "./RateTable"
+import RateTable from "./RateTable/RateTable"
 
 const App = () => {
   const [refreshRate, setRefreshRate] = useState("5000")

@@ -7,7 +7,7 @@ const RateTableBody = ({ exchangeRates }) => (
       const { from, to, rate } = exchangeRate
       return (
         <tr key={from + to}>
-          <td>{`${from} -> ${to}`}</td>
+          <td>{`${from} / ${to}`}</td>
           <td>{rate}</td>
         </tr>
       )

@@ -8,6 +8,7 @@ const App = () => {
   return (
     <>
       <h1 id="title">Cryptocurrency Exchange Rates</h1>
+      <hr />
       <RefreshRate refreshRate={refreshRate} setRefreshRate={setRefreshRate} />
       <RateTable refreshRate={refreshRate} />
     </>

@@ -1,9 +1,10 @@
 #rateTableHeadContainer {
+  text-align: left;
 
   tr {
     th {
-      width: $column-width;
-      font-size: 27px;
+      padding: 6px 0px 6px 20px;
+      font-size: 19px;
       background-color: mediumturquoise;
       color: #ffffff;
       @include tableBorders();

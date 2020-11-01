@@ -1,11 +1,16 @@
 #rateTableBodyContainer {
   font-size: 20px;
+  text-align: left;
 
   tr {
     td {
-      width: $column-width;
-      padding: 8px;
+      width: 235px;
+      padding: 8px 0px 8px 20px;
       @include tableBorders();
+
+      &:nth-child(2) {
+        width: 157px;
+      }
     }
 
     &:nth-child(even) {

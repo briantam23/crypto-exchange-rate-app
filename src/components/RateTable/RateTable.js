@@ -8,7 +8,6 @@ const RateTable = ({ refreshRate }) => {
   const [exchangeRates, setExchangeRates] = useState([])
 
   const getData = () => {
-    console.log("foo")
     axios
       .get("https://liquality.io/swap/agent/api/swap/marketinfo")
       .then((res) => res.data)

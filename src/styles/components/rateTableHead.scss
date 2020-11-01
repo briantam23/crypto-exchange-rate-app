@@ -8,6 +8,12 @@
       background-color: mediumturquoise;
       color: #ffffff;
       @include tableBorders();
+
+      @media (max-width: $max-width-phone) {
+        padding: 5px 0px 5px 15px;
+        font-size: 17px;
+        width: 121px;
+      }
     }
   }
 }

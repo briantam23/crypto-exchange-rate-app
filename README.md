@@ -1,11 +1,16 @@
 # Crypto Exchange Rate app
 
 ## Table of contents
+* [Live Demo](#live-demo)
 * [Dependencies](#dependencies)
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Running Locally](#running-locally)
 * [Contact](#contact)
+
+## Live Demo
+
+Currently deployed to [Heroku](https://crypto-exchange-rate-app.herokuapp.com/)!
 
 ## Dependencies
 

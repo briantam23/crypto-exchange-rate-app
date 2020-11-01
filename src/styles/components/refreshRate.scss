@@ -3,13 +3,26 @@
   width: 434px;
   font-weight: 600;
 
+  @media (max-width: $max-width-phone) {
+    margin-top: 27px;
+    width: 309px;
+  }
+
   label {
     font-size: 21px;
     margin-right: 10px;
     color: cornflowerblue;
+
+    @media (max-width: $max-width-phone) {
+      font-size: 19px;
+    }
   }
 
   select {
     font-size: 16.5px;
+
+    @media (max-width: $max-width-phone) {
+      font-size: 14.5px;
+    }
   }
 }

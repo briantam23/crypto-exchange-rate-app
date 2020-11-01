@@ -3,4 +3,9 @@
   font-size: 45px;
   margin-top: 40px;
   color: $color-purple;
+
+  @media (max-width: $max-width-phone) {
+    font-size: 25px;
+    margin-top: 20px;
+  }
 }

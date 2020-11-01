@@ -2,14 +2,27 @@
   font-size: 20px;
   text-align: left;
 
+  @media (max-width: $max-width-phone) {
+    font-size: 19px;
+  }
+
   tr {
     td {
       width: 235px;
       padding: 8px 0px 8px 20px;
       @include tableBorders();
 
+      @media (max-width: $max-width-phone) {
+        width: 132px;
+        padding: 7px 0px 7px 15px;
+      }
+
       &:nth-child(2) {
         width: 157px;
+
+        @media (max-width: $max-width-phone) {
+          width: 143.5px;
+        }
       }
     }
 

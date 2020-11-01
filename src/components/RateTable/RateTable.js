@@ -17,6 +17,7 @@ const RateTable = ({ refreshRate }) => {
   useEffect(() => {
     getData()
     const interval = setInterval(getData, refreshRate)
+    // Use the clean up function of useEffect to clear last setInterval()
     return () => clearInterval(interval)
   }, [refreshRate])
 

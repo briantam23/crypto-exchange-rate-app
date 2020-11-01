@@ -11,6 +11,7 @@
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Running Locally](#running-locally)
+* [Running Tests](#running-tests)
 * [Contact](#contact)
 
 ## Live Demo
@@ -22,6 +23,7 @@ Currently deployed to [Heroku](https://crypto-exchange-rate-app.herokuapp.com/)!
 * [React](https://reactjs.org)
 * [SCSS](https://sass-lang.com/)
 * [Axios](https://github.com/axios/axios)
+* [React Testing Library](https://www.npmjs.com/package/@testing-library/react)
 * [ESLint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
 
@@ -50,6 +52,14 @@ npm run start:dev
 ```
 
 Your app should now be running on [localhost:3000](http://localhost:3000).
+
+## Running Tests
+
+Created Tests for React Components:
+
+```sh
+npm test
+``` 
 
 ## Contact
 Created by [Brian Tam](http://briantam23.github.io) - feel free to contact me at [briantam23@gmail.com](mailto:briantam23@gmail.com)!

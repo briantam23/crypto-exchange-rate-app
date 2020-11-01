@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/briantam23/crypto-exchange-rate-app.svg?branch=master)](https://travis-ci.org/briantam23/crypto-exchange-rate-app)
+[![Dependency Status](https://david-dm.org/briantam23/crypto-exchange-rate-app.svg)](https://david-dm.org/briantam23/crypto-exchange-rate-app)
+[![devDependencies Status](https://david-dm.org/briantam23/crypto-exchange-rate-app/dev-status.svg)](https://david-dm.org/briantam23/crypto-exchange-rate-app?type=dev)
+[![Code Climate](https://codeclimate.com/github/briantam23/crypto-exchange-rate-app/badges/gpa.svg)](https://codeclimate.com/github/briantam23/crypto-exchange-rate-app/)
+
 # Crypto Exchange Rate app
 
 ## Table of contents

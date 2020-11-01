@@ -6,7 +6,7 @@ const RateTableBody = ({ exchangeRates }) => (
     {exchangeRates.map((exchangeRate) => {
       const { from, to, rate } = exchangeRate
       return (
-        <tr key={from + to}>
+        <tr key={from + to} data-testid="tr">
           <td>{`${from} / ${to}`}</td>
           <td>{rate}</td>
         </tr>

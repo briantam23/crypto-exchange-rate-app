@@ -2,11 +2,10 @@ import React from "react"
 import { render, screen, fireEvent } from "@testing-library/react"
 import RefreshRate from "../components/RefreshRate"
 
-let mockedSetRefreshRate
+const mockedSetRefreshRate = jest.fn()
 let selectElement
 
 beforeEach(() => {
-  mockedSetRefreshRate = jest.fn()
   render(
     <RefreshRate refreshRate="5000" setRefreshRate={mockedSetRefreshRate} />
   )

@@ -13,6 +13,7 @@ const RefreshRate = ({ refreshRate, setRefreshRate }) => {
         onBlur={handleChange}
         onChange={handleChange}
         id="refreshRate"
+        data-testid="select"
       >
         <option value="5000">5 seconds</option>
         <option value="10000">10 seconds</option>
